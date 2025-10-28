@@ -1,4 +1,4 @@
-### **October 28, 2025: Day 1**
+### **October 27, 2025**
 
 **Today's Focus**
 * Understand the different contexts of cross-site scripting.
@@ -15,3 +15,47 @@
 * After indentifying context, need to find a working payload, (this requires researching tags and their attributes).
 * Tomorrow I will see XSS in javascript, this is seems a bit tough, could be, i will see it tomorrow. 
 
+---
+
+### **October 28, 2025**
+
+**Today's Focus**
+* Understand the context of XSS in javascript.
+
+**What I Learned?**
+* Sometimes we can just simply terminate the existing script and inject our payload. It won't work always as applications can encode '<' and '>'.
+```html
+<script>
+var = 'value';
+</script>
+
+#.injection can happen like this below..
+
+<script>
+var = </script><script>alert(1)</script> or
+var = </script><img src=1 onerror=alert(1)>
+</script>
+```
+* In some cases the context can be inside JS string literals, in that we have to break out of that string literal,
+```html
+useful payloads
+
+';alert(document.domain)
+or
+'-alert(document.domain)//
+```
+* This require some clever thinking, it's about how to introduce single quote.
+* Some applications even block single quotes using a backslash before the single quote, this backslash tells the parser to parse single quote literally instead of considering it as a special character.
+* To bypass this inject the single quote with a backslash
+```html
+\';alert(document.domain)//
+this will get converted to
+\\';alert(document.domain)//
+```
+* This works when applications fail to esacpe backslash itself.
+
+**Thoughts**
+* It is tricky to determine what payload will work.
+* It's all trial and error, best way is to try and inject characters one by one and check responses, this will help in framing the payload effectively.
+* Tomorrow will see some more contexts of XSS.
+  
