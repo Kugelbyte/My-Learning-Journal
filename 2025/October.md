@@ -59,3 +59,37 @@ this will get converted to
 * It's all trial and error, best way is to try and inject characters one by one and check responses, this will help in framing the payload effectively.
 * Tomorrow will see some more contexts of XSS.
   
+---
+
+### **October 29, 2025**
+
+**Today's Focus**
+
+* XSS context in javascript template literals.
+* Understanding client-side template injection.
+* Grasp the understanding of content security policy.
+
+**What I Learned ?**
+* Template literals can be identified by backticks ` `.
+```html
+<script>
+
+var msg = `user controlled input`;
+
+</script>
+```
+* This will allow embedded javascript expression to execute.
+* Here in place of template literal between ``, we can insert ${..} to embed javascript expression.
+```html
+<script>
+var msg = `${alert(document.domain)}
+</script>
+```
+* Content Security Policy is a browser security mechanism to prevent XSS.
+* It basically works by restricting the resources that a page can load.
+* If the response contains a header names "Content-Security-Policy" that means it is enabled, the header values contains policies separated by commas.
+
+**Thoughts**
+* There are techniques to bypass Content Security Policy, they seem a bit tough to understand at first.
+* Really liked how a template injection works, the premise of it.
+
