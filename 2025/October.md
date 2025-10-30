@@ -93,3 +93,23 @@ var msg = `${alert(document.domain)}
 * There are techniques to bypass Content Security Policy, they seem a bit tough to understand at first.
 * Really liked how a template injection works, the premise of it.
 
+---
+
+### **October 30, 2025**
+
+**Today's Focus**
+* Dive more into Content Security Policy.
+* Understand Dangling Markup Injection.
+* Understand Dangling Markup Injection can be used to bypass CSP.
+* Do some recon on a public Vulnerabiltiy Disclosure Program.
+
+**What I Learned ?**
+* Read MDN-web docs on CSP and gained understanding of CSP directives such as 'img-src', 'default-src'.
+* Read Portswigger's research on using dangling markup injection to bypass CSP.
+* Solved a lab on bypassing CSP.
+* Did some recon on the target scope defined by a VDP in bugcrowd.
+
+**Thoughts**
+* Portswiggerresearch was very interesting to read, the innovative approach to use dangling markup injection.
+* Put my learning to test and did some passive and active recon on the VDP target, found some obscure subdomains.
+* Also bought eJPT + training bundle, now the preaparation for that starts tomorrow.
