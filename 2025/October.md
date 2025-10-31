@@ -113,3 +113,24 @@ var msg = `${alert(document.domain)}
 * Portswiggerresearch was very interesting to read, the innovative approach to use dangling markup injection.
 * Put my learning to test and did some passive and active recon on the VDP target, found some obscure subdomains.
 * Also bought eJPT + training bundle, now the preaparation for that starts tomorrow.
+
+---
+
+### **October 31, 2025**
+
+**Today's Focus**
+* Understand Access Control (Horizontal and Vertical)
+* Understand how to exploit access control flaws.
+* Start eJPT Training course.
+* Do some Active Recon on VDP target.
+
+**What I Learned ?**
+* Read about how to escalate privileges horizontally and vertically, i.e. accessing hidden files/directories, tampering with parameters, finding IDORs.
+* Learned about overriding access controls by changing request methods and using "X-Original-URL" header.
+* Started eJPT training course; learned about information gathering, website recon.
+* Put my knowledge and methods into test by doing some active recon in the VDP target.
+* Found that the target is using obsolete XSS protection mechanism.
+
+**Thoughts**
+* eJPT training is very easy to grasp as I am already experienced with penetration testing, neverthless the training contains some previously unkown tools to me so definitely worth checking out.
+* The VDP target is using obsolete XSS protection and no CSP headers, I just wish that I can find a vulnerability now.
