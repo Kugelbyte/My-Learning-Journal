@@ -134,3 +134,17 @@ var msg = `${alert(document.domain)}
 **Thoughts**
 * eJPT training is very easy to grasp as I am already experienced with penetration testing, neverthless the training contains some previously unkown tools to me so definitely worth checking out.
 * The VDP target is using obsolete XSS protection and no CSP headers, I just wish that I can find a vulnerability now.
+
+---
+
+### **November 1, 2025**
+
+**Today's Focus**
+* Refresh the basics of dns recon.
+
+**What I Learned?**
+* Completed some training material on dns reconnaissance in eJPT Training course.
+* Got to know about Netcraft, another dns recon utility.
+
+**Thoughts**
+* Learned about "dnsdumpster", this really provides information in comprehensive manner.
