@@ -137,14 +137,5 @@ var msg = `${alert(document.domain)}
 
 ---
 
-### **November 1, 2025**
 
-**Today's Focus**
-* Refresh the basics of dns recon.
 
-**What I Learned?**
-* Completed some training material on dns reconnaissance in eJPT Training course.
-* Got to know about Netcraft, another dns recon utility.
-
-**Thoughts**
-* Learned about "dnsdumpster", this really provides information in comprehensive manner.
