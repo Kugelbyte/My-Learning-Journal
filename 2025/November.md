@@ -26,3 +26,15 @@
 * Discarded the script and recorded the video assuming that I was explaining to my younger self.
 * Video is ready and scheduled to launch tomorrow November 3, 2025, it's not flawless but at least I tried and I will improve in further videos.
 --- 
+### **November 3, 2025**
+
+**Today's Focus**
+* Complete Information Gathering module of the eJPT training.
+
+**What I Learned?** 
+* Watched videos using Google Dorks for passive information gathering.
+* Brushed up my knowledge on nmap and its different options.
+
+**Thoughts**
+* Google Dorks are really really good, I should start using them, they reveal a lot of information.
+---
