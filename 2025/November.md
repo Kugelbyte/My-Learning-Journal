@@ -38,3 +38,19 @@
 **Thoughts**
 * Google Dorks are really really good, I should start using them, they reveal a lot of information.
 ---
+### **November 4, 2025**
+
+**Today's Focus**
+* Attempt the Information Gathering lab of eJPT training material.
+* Active recon in the VDP target.
+
+**What I Learned/Did ?**
+* The information gathering lab of the eJPT training module consists 5 objectives/flags, I found 4 of them, only 1 flag remains.
+* Did some active recon again on VDP, this time I created an account on the target and tried for bypassing access controls, trying for IDORs.
+* The target's security is robust they are implementing random GUIDs instead of usernames, multiple API calls are also involved. This is not going to be easy.
+
+**Thoughts**
+* I am slowly getting that feeling of "what if i do this?" while doing active recon on VDP target.
+* There are still knowledge gaps which are preventing me from seeing the bigger picture, i need to address this by learning more concepts.
+
+---
