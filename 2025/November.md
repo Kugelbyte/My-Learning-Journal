@@ -54,3 +54,20 @@
 * There are still knowledge gaps which are preventing me from seeing the bigger picture, i need to address this by learning more concepts.
 
 ---
+
+### **November 05, 2025**
+
+**Today's Focus**
+* Continue with eJPT training.
+* Learn more topics related to web security.
+
+**What I Learned ?**
+* Watched some eJPT training material on OSI model and nmap, I was already familiar with OSI model so breezed through that part.
+* Learned some host discovery techniques in nmap and when to use them.
+* After 12 PM started feeling drowsy and headache started so canceled the web security topics and instead read vulnerability disclosure reports by other bug hunters.
+
+**Thoughts**
+* I need to keep pushing everyday, that is the only way I am going to make it, only action can save me.
+* After reading the reports of other hunters, I realized the techniques they used were not advanced and nothing out of my knowledgebase.
+* I felt a bit hopeful, I will find the bug one day, just a matter of time.
+--- 
