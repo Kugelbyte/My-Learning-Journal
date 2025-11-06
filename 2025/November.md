@@ -71,3 +71,18 @@
 * After reading the reports of other hunters, I realized the techniques they used were not advanced and nothing out of my knowledgebase.
 * I felt a bit hopeful, I will find the bug one day, just a matter of time.
 --- 
+
+### **November 06, 2025**
+
+**Today' Focus**
+* Cover more nmap concepts from eJPT training.
+* Learn concepts from Portswigger Academy.
+
+**What I Learned / Did ?**
+* Explored various types of scans in nmap and when to use them, such as SYN scan, ACK scan.
+* Read some basic information on JWT authentication.
+* Read some more reports of other hunters on SQLi.
+
+**Thoughts**
+* Today I felt a loss of energy in noon so pivoted to some report reading.
+* SQL injections mentioned in those reports were found simply by running sqlmap, this gives me hope that it's not that difficult, I need to be thorough on my concepts.
