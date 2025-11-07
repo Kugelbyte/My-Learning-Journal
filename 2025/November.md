@@ -86,3 +86,21 @@
 **Thoughts**
 * Today I felt a loss of energy in noon so pivoted to some report reading.
 * SQL injections mentioned in those reports were found simply by running sqlmap, this gives me hope that it's not that difficult, I need to be thorough on my concepts.
+---
+
+### **November 07, 2025**
+
+**Today's Focus**
+* Explore nmap scripting engine from eJPT training material and firewall/IDS evasion techniques.
+* Setup Kali Linux on Windows Subsystem for Linux (WSL).
+
+**What I Did ?**
+* Learned about nmap scripting engine and various types of scripts used for enumeration/information gathering.
+* Learned about different options in nmap which can be used for firewall and IDS evasion such as fragmentation, delaying the packets.
+* Set up Kali Linux on WSL and configured Kex (Kali Linux GUI for WSL).
+
+**Thoughts**
+* Although I am already experienced with nmap but today i delved into some advanced topics (firewall evasion) which was great.
+* Setting up Kali on WSL took longer than expected (took my whole second half of the day).
+* Finally Kali is running smooth and lag free contrary to Kali VM, I hope this will increase my productivity from now on as that horrible lag on kali vm really used to annoy me.
+---
