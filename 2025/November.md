@@ -104,3 +104,18 @@
 * Setting up Kali on WSL took longer than expected (took my whole second half of the day).
 * Finally Kali is running smooth and lag free contrary to Kali VM, I hope this will increase my productivity from now on as that horrible lag on kali vm really used to annoy me.
 ---
+### **November 08, 2025**
+
+**Today's Focus**
+* Try to solve a challenge from hackthebox.
+* Record video for youtube.
+
+**What I Did ?**
+* Started the day with jumping into hackthebox, picked up a challenge.
+* This challenge introduced  me to a new concept, XLST Injection.
+* I wasn't able to solve the challenge as I lacked the necessary knowledge, but i will delve more into XLST injection and attempt the challenge later.
+* Recorded a video on ffuf, I did a simple demonstration of tool, showing how to fuzz and filter out results.
+
+**Thoughts**
+* XLST Injection doesn't seemed that complicated but I think I need to have a thorough understanding of XML and XXE Injection atleast at basic level.
+* This time I recorded the video in parts and then combined it into whole.
