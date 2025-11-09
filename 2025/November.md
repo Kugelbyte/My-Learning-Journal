@@ -119,3 +119,17 @@
 **Thoughts**
 * XLST Injection doesn't seemed that complicated but I think I need to have a thorough understanding of XML and XXE Injection atleast at basic level.
 * This time I recorded the video in parts and then combined it into whole.
+---
+
+### **November 09, 2025**
+
+**Today's Focus**
+* Upload the video to youtube.
+* Watch a video from eJPT training material.
+
+**What I Did ?**
+* Uploaded the video recorded yesterday on youtube.
+* Watched a video on how to output the nmap scan results in text files.
+
+**Thoughts**
+* Going to Indore tonight, tomorrow I will try to explore to new OWASP 2025.
