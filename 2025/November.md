@@ -133,3 +133,12 @@
 
 **Thoughts**
 * Going to Indore tonight, tomorrow I will try to explore to new OWASP 2025.
+---
+### **November 10, 2025**
+
+**Today's Focus**
+* ---------
+**What I Did ?**
+* ---------
+**Thoughts**
+* Due to me being out of home, was not able to do productive learning today.
