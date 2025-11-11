@@ -137,8 +137,20 @@
 ### **November 10, 2025**
 
 **Today's Focus**
-* ---------
+* _________
 **What I Did ?**
-* ---------
+* _________
 **Thoughts**
 * Due to me being out of home, was not able to do productive learning today.
+
+---
+
+### **November 11, 2025**
+
+** Today's Focus
+*_______
+** What I Did ?**
+* ______
+
+**Thoughts**
+* Took my time off to rest and recover from the travel fatigue, will jump back to action from tomorrow.
