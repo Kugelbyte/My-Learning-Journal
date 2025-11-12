@@ -154,3 +154,47 @@
 
 **Thoughts**
 * Took my time off to rest and recover from the travel fatigue, will jump back to action from tomorrow.
+---
+
+### **November 12, 2025**
+
+**Today's Focus**
+* Explore more about authentication mechanisms (session and token based).
+* Learn about weaknesses in JWT.
+* eJPT training material.
+* Check the new OWASP Top 10 2025.
+
+**What I Learned/Did ?**
+* Refreshed my knowledge on the authentication basics.
+* Learnt about the structure of JWT and the components (header, payload, signature).
+```json
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30
+
+JWT is base64 encoded.
+"." is used to delimit the components of the JWT token.
+header.payload.signature
+
+Header
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+Payload
+{
+  "exp": 1485140984,
+  "iat": 1485137384,
+  "iss": "acme.com",
+  "sub": "29ac0c18-0b4a-42cf-82fc-03d570318a1d",
+  "applicationId": "79103734-97ab-4d1a-af37-e006d05d2952",
+  "roles": []
+}
+
+```
+* Delved into some misconfigs in JWT implementations which can be harmful such as header and payload manipulation and bypassing signature and "alg".
+* Watched eJPT training material on how to import nmap results to metasploit.
+* Browsed the new categories introduced in OWASP Top 10 2025.
+
+**Thoughts**
+* JWT tokens are widely used in authentication, they are robust in nature but the problems arises from their insecure implementation by developers.
+* OWASP Top 10 has been updated after 4 years, Broken Access Control still tops the list.
+---
