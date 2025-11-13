@@ -198,3 +198,30 @@ Payload
 * JWT tokens are widely used in authentication, they are robust in nature but the problems arises from their insecure implementation by developers.
 * OWASP Top 10 has been updated after 4 years, Broken Access Control still tops the list.
 ---
+### **November 13, 2025**
+
+**Today's Focus**
+* Learn about more JWT attack techniques.
+* Solve labs on JWT attacks.
+* Learn about auxiliary modules in metapsloit (eJPT training).
+
+**What I Learned ?**
+* Explored more attack vectors in JWT, particularly header parameter injections (using jwk,jku,kid).
+* Injecting self signed JWTs via jwk parameter.
+* Injecting self signed JWTs using jku parameter.
+```json
+
+{
+    "kid": "../../path/to/file", 
+    "typ": "JWT",
+    "alg": "HS256",
+    "k": "asGsADas3421-dfh9DGN-AFDFDbasfd8-anfjkvc"
+}
+```
+* Solved the labs on how to exploit header parameter injections.
+* Learnt about enumerating services (ftp,smb) using auxiliary modules in metasploit.
+
+**Thoughts**
+* The JWT attack techniques which I explored today were very good, the flaw isn't in JWT but in it's implementation by the developers and developers can get very careless.
+* Really enjoyed the Portswigger labs on the JWT attacks.
+* Although I was already familiar with enumeration via auxiliary modules in metasploit but the training material gave a really good refresher on it in a structured way.
