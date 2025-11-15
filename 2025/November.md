@@ -1,4 +1,4 @@
-### **November 1, 2025**
+i### **November 1, 2025**
 
 **Today's Focus**
 * Refresh the basics of dns recon.
@@ -225,3 +225,22 @@ Payload
 * The JWT attack techniques which I explored today were very good, the flaw isn't in JWT but in it's implementation by the developers and developers can get very careless.
 * Really enjoyed the Portswigger labs on the JWT attacks.
 * Although I was already familiar with enumeration via auxiliary modules in metasploit but the training material gave a really good refresher on it in a structured way.
+
+---
+
+### **November 14, 2025**
+
+**Today's Focus**
+* Revise JWT attacks.
+* Do some active Reconnaissance.
+
+**What I Did ?**
+* Revisited the JWT attacks.
+* Did some active Reconnaissance.
+
+**Thoughts**
+
+* Day was average,didn't felt the desire to do much so did some revision.
+* Going to Katangi tonight for weekend.
+
+---
