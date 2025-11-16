@@ -1,4 +1,4 @@
-i### **November 1, 2025**
+### **November 1, 2025**
 
 **Today's Focus**
 * Refresh the basics of dns recon.
