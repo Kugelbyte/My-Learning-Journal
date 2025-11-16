@@ -244,3 +244,35 @@ Payload
 * Going to Katangi tonight for weekend.
 
 ---
+### **November 15, 2025**
+
+**Today's Focus**
+* Configure Proton VPN on Kali Linux (WSL).
+
+**What I Did ?**
+* Configured proton vpn via openvpn as desktop client installation was corrupted.
+* The "apt" package installer was failing again and again in installing proton vpn, tried many ways to troubleshoot it, none worked.
+* In the end, had to download openvpn client files for the proton vpn, this solution worked.
+
+**Thoughts**
+* apt utility caused a headache, it was not recognising proton repo and repository was somehow not getting added in sources.list.
+* Finally found a workaround by using openvpn, it is not convenient but it works.
+
+---
+
+### **November 16, 2025**
+
+**Today's Focus**
+* Practice nmap scans on some targets.
+* Learn shodan query fundamentals.
+
+**What I Did/Learned ?**
+* Ran some nmap commands in on the targets to keep the knowledge fresh.
+* Read about how to make queries in shodan
+```json
+country: in
+product: mysql
+org: "XYZ Corporation"
+```
+**Thoughts**
+* Shodan is a great resource for finding a plethora of targets. 
