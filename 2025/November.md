@@ -276,3 +276,27 @@ org: "XYZ Corporation"
 ```
 **Thoughts**
 * Shodan is a great resource for finding a plethora of targets. 
+
+---
+
+### **November 17, 2025**
+
+
+**What I Did ?**
+* Explored more on various options in shodan queries.
+* Watched eJPT training video on web server enumeration.
+
+**Thoughts**
+* The enumeration techniques mentioned in training material are metasploit focused, like they are packaged in metasploit itself.
+
+---
+
+### **November 18, 2025**
+
+**What I Learned/Did ?**
+* Learnt about Algorithm Confusion attack in JWT.
+* This attack occurs when an attacker forces the server to verify a JWT token signed by different algorithm than the one intended by developers.
+* Attempted the eJPT course CTF, found a flag.
+
+**Thoughts**
+* If there are insufficient checks, attackers can use algorithm confusion to forge malicious JWTs without needing server's secret signing key.
