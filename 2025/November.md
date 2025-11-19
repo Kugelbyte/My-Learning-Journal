@@ -300,3 +300,16 @@ org: "XYZ Corporation"
 
 **Thoughts**
 * If there are insufficient checks, attackers can use algorithm confusion to forge malicious JWTs without needing server's secret signing key.
+---
+
+### **November 19. 2025**
+
+**What I Learned ?**
+* Learned about OAuth 2.0 and the OAuth flow.
+* OAuth 2.0 is used in modern web apps, it allows the web apps to access a certain amount of user information on other applications.
+* There are various OAuth flows, two of the most widely used are:
+  - Authorization Code grant
+  - Implicit grant
+
+**Thoughts**
+* This is a big and somewhat complex topic, but since its used in majority of web apps, its worth exploring.
