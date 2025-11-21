@@ -11,7 +11,7 @@
 * Learned about "dnsdumpster", this really provides information in comprehensive manner.
 ---
 
-### **November 2. 2025**
+### **November 2, 2025**
 
 **Today's Focus**
 * Create a video for youtube and create my channel.
@@ -302,7 +302,7 @@ org: "XYZ Corporation"
 * If there are insufficient checks, attackers can use algorithm confusion to forge malicious JWTs without needing server's secret signing key.
 ---
 
-### **November 19. 2025**
+### **November 19, 2025**
 
 **What I Learned ?**
 * Learned about OAuth 2.0 and the OAuth flow.
@@ -313,3 +313,13 @@ org: "XYZ Corporation"
 
 **Thoughts**
 * This is a big and somewhat complex topic, but since its used in majority of web apps, its worth exploring.
+
+---
+
+### **November 20, 2025**
+
+**What I Did ?**
+* Didn't do anything.
+
+**Thoughts**
+** Due to personal commitments I couldn't commit time to learning.
