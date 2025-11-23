@@ -322,4 +322,13 @@ org: "XYZ Corporation"
 * Didn't do anything.
 
 **Thoughts**
-** Due to personal commitments I couldn't commit time to learning.
+* Due to personal commitments I couldn't commit time to learning.
+
+---
+
+### **November 21,2025**
+**What I did ?**
+* No activity today.
+**Thoughts**
+* Due to personal commitments, I did not commit time to learning.
+
