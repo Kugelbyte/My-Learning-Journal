@@ -316,49 +316,42 @@ org: "XYZ Corporation"
 
 ---
 
-### **November 20, 2025**
+### **November 20, 2025 - November 27, 2025**
 
 **What I Did ?**
-* Didn't do anything.
+* Took a planned 7 day time off for a family trip.
 
 **Thoughts**
-* Due to personal commitments I couldn't commit time to learning.
+* The trip was pre-planned, will get back to work from tomorrow.
 
 ---
 
-### **November 21,2025**
-**What I did ?**
-* No activity today
+### **November 28, 2025**
+
+**Today's focus**
+* Wrote a custom script to enumerate samba shares in the eJPT lab.
+
+**What I Learned/Did ?**
+* Completed the eJPT lab based on service enumeration.
+* I enumerate the samba and ftp services using metasploit auxiliary modules for smb and ftp and used utilities like:
+  - enum4linux
+  - smbclient
+  - smbmap
+* I wrote a custom script to find a share with anonymous access enabled as there was no functionality to perform enumeration for shares with anonymous access in metasploit.
+```bash
+#!/bin/bash
+wordlist=/root/Desktop/wordlists/shares.txt
+target=192.54.133.3
+for share in $(cat wordlist); do
+          output=$(smbclient //$ip/$share -W TARGET -N -c "ls" 2>/dev/null)
+          echo "Trying $share: $output"
+done
+```
+* Succesfully found the share with anonymous access based on output printed.
 
 **Thoughts**
-* Due to personal commitments, I did not commit time to learning.
+* Tools don't always yield results, there will be times when there will be a need to use custom operations which can be done by creating own scripts.
+* The "-c" argument used in the smbclient command in the script is to prevent the script from freezing as this argument will execute the given command and exit from shell instead of keeping it open.
+
 ---
-### **November 22, 2025**
-
-**What I Did ?**
-* No activity today
-
-**Thoughts**
-* Due to personal commitments, couldn't commit to learning.
-
----
-
-### **November 22,2025**
-
-**What I Did ?**
-* No activity today
-
-**Thoughts**
-* Due to personal commitments, couldn't commit to learning.
-
----
-
-### **November 23, 2025**
-
-**What I Did ?**
-* No activity today
-
-**Thoughts**
-* Due to personal commitments, couldn't commit to learning.
-
 
