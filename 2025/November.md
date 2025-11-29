@@ -354,4 +354,17 @@ done
 * The "-c" argument used in the smbclient command in the script is to prevent the script from freezing as this argument will execute the given command and exit from shell instead of keeping it open.
 
 ---
+### **November 30, 2025**
 
+**Today's focus**
+* Solve the eJPT challenge lab on vulnerability assessment and exploitation.
+* Implement the skills learned on realistic target environments.
+
+**What I Learned/Did ?**
+* I solved another lab from eJPT training, this lab was fairly easy, enumerate the services, find vulnerabilities exploit them.
+* Learned about metasploit modules on windows services like MS IIS, WebDAV etc.
+* Implemented the learnt knowledge on realistic targets, found a very old samba version but for some reason the connection request was being rejected.
+
+**Thoughts**
+* I personally don't like using metasploit, sure it has utilities,exploits in an organized manner and saves a lot of time, but it doesn't make me feel like a real pro.
+---
