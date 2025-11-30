@@ -354,7 +354,7 @@ done
 * The "-c" argument used in the smbclient command in the script is to prevent the script from freezing as this argument will execute the given command and exit from shell instead of keeping it open.
 
 ---
-### **November 30, 2025**
+### **November 29, 2025**
 
 **Today's focus**
 * Solve the eJPT challenge lab on vulnerability assessment and exploitation.
@@ -368,3 +368,19 @@ done
 **Thoughts**
 * I personally don't like using metasploit, sure it has utilities,exploits in an organized manner and saves a lot of time, but it doesn't make me feel like a real pro.
 ---
+### **November 30, 2025**
+
+**Today's Focus**
+* Refresher on sql injection payloads (union based).
+* Learn about privilege escalation in Windows systems from eJPT training module.
+
+**What I Learned/Did ?**
+* Attempted a lab on sql injection, this made me refresh on the topic itself, specifically on union based sql injection.
+* Learnt about privilege escalation techniques in Windows using:
+  - Kernel exploits
+  - UAC Bypass
+  - Impersonating Access Tokens
+  - Hash Dumping
+
+**Thoughts**
+* The escalation techniques described in the training material are obsolete on their own.
