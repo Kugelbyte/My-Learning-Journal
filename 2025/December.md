@@ -27,3 +27,15 @@
 **Thoughts**
 * Didn't do anything significant today, was feeling a bit down so took time off.
 ---
+### **December 3, 2025**
+
+**Today's Focus**
+* Solve eJPT CTF lab.
+
+**What I Learned/Did ?**
+* I solved a ctf lab, it involved exploiting microsoft sql server.
+* Used msfconsole to exploit mssql.
+
+**Thoughts**
+* The mssql_payload module was buggy, wasted a lot of time in it.
+---
