@@ -39,3 +39,14 @@
 **Thoughts**
 * The mssql_payload module was buggy, wasted a lot of time in it.
 ---
+### **December 4, 2025**
+**Today's focus**
+* Solve eJPT labs.
+
+**What I Did/Learned ?**
+* Solved two more labs from eJPT training material.
+
+**Thoughts** 
+* Solve a lab completely and another lab was half solved, will finish it tomorrow.
+* Just knowing the version of a service can be crucial, I realized that today.
+---
