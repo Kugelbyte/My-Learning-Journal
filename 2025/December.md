@@ -50,3 +50,12 @@
 * Solve a lab completely and another lab was half solved, will finish it tomorrow.
 * Just knowing the version of a service can be crucial, I realized that today.
 ---
+### **December 4, 2025**
+**Today's focus**
+* Solve eJPT lab.
+
+**What I Did ?**
+* I solved another ctf lab today.
+
+**Thoughts**
+* The labs are getting repetitive, I need to shift focus to labs from tryhackme or hackthebox.
