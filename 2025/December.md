@@ -50,7 +50,7 @@
 * Solve a lab completely and another lab was half solved, will finish it tomorrow.
 * Just knowing the version of a service can be crucial, I realized that today.
 ---
-### **December 4, 2025**
+### **December 5, 2025**
 **Today's focus**
 * Solve eJPT lab.
 
@@ -59,3 +59,22 @@
 
 **Thoughts**
 * The labs are getting repetitive, I need to shift focus to labs from tryhackme or hackthebox.
+---
+### **December 6, 2025**
+**Took time off**
+---
+
+### **December 7, 2025**
+**Today's Focus**
+* Research on CVE-2025-55182.
+
+**What I Learned ?**
+* I dove deep into React Components, React server components, how and why RCS is needed, how it serialized and deserializes data.
+* Learnt about RCS's Flight Protocol.
+* Wrote custom exploit code based on a PoC.
+
+**Thoughts**
+* This "React2Shell" vulnearbility is classified as Insecure Deserialization vulnerability.
+* Wrote a python exploit for this, RSC receives it but payload is failing to execute.
+
+---
