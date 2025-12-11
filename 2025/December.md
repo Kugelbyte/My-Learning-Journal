@@ -78,3 +78,20 @@
 * Wrote a python exploit for this, RSC receives it but payload is failing to execute.
 
 ---
+### **December 08, 2025 - December 10, 2025**
+**Took time off due to bad health.
+---
+
+### **December 11, 2025**
+**Today's Focus**
+* Get back into routine.
+* Solve a trthackme lab.
+
+**What I Did ?**
+* Solve "Retro" ctf lab on tryhackme, it was hard in difficulty.
+* Initial access was obtained via leaked credentials.
+* Privilege escalation was obtained by either exploiting CVE-2019-1388 and CVE-2017-0213.
+
+**Thoughts**
+* I used the latter CVE (2017-0213) for escalation.
+---
