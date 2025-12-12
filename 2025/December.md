@@ -95,3 +95,19 @@
 **Thoughts**
 * I used the latter CVE (2017-0213) for escalation.
 ---
+### **December 12, 2025**
+**Today's Focus**
+* Solve "Relevant" from tryhackme.
+* Publish the entry for it in Hack Log (my collection of writeups).
+
+**What I Did ?**
+* I solve the "Relevant" lab on TryHackMe.
+* The lab featured
+  - Insecure access
+  - Leaked credentials
+  - Uploading shell via smb server for initial access
+  - Using impersonation tokens to escalate to Authority\System
+
+**Thoughts**
+* Learnt something new, sometimes samba shares can also be hosted via web server, had to look a writeup for this, uploaded the reverse shell using this technique.
+* The complete writeup for this available [here](https://github.com/Kugelbyte/Hack-Log/journal/2025-12-12-relevant.md)
