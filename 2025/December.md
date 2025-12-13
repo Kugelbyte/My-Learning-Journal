@@ -111,3 +111,16 @@
 **Thoughts**
 * Learnt something new, sometimes samba shares can also be hosted via web server, had to look a writeup for this, uploaded the reverse shell using this technique.
 * The complete writeup for this available [here](https://github.com/Kugelbyte/Hack-Log/journal/2025-12-12-relevant.md)
+---
+
+### **December 13, 2025**
+**Today's Focus**
+* Finish the analysis report for CVE-2025-55182 (React2Shell).
+* Post the report on github and linkedin.
+
+**What I Did ?**
+* Finally, finished the report, took reference from Tryhackme's lab, and the PoC provided for it.
+
+**Thoughts**
+* Link to the report : https://github.com/Kugelbyte/React2Shell-Analysis/tree/main
+---
