@@ -124,3 +124,13 @@
 **Thoughts**
 * Link to the report : https://github.com/Kugelbyte/React2Shell-Analysis/tree/main
 ---
+### **December 14, 2025**
+**Today's Focus**
+* Solve CTF lab on post-exploitation.
+
+**What I Did ?**
+* Exploited the ssh (libssh) service to gain initial access.
+* Escalated privileges using improper permissions on "/etc/shadow" file.
+
+**Thoughts**
+* I confused myself with the IP address of the target, wasted some time scanning different IP.
