@@ -134,3 +134,16 @@
 
 **Thoughts**
 * I confused myself with the IP address of the target, wasted some time scanning different IP.
+---
+
+### **December 15. 2025**
+**Today's Focus**
+* Solve two ctf labs from eJPT training.
+* Solve "Blog" from tryhackme.
+
+**What I Did ?**
+* Solved the couple of labs from eJPT, based on post exploitation and web app exploitation.
+* Solved Blog from tryhackme, it was based on wordpress 5.0 exploitation.
+
+**Thoughts**
+* I don't like this puzzle type labs and challenges, the more the real they are the better.
