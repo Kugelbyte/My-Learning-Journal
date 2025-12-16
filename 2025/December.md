@@ -147,3 +147,15 @@
 
 **Thoughts**
 * I don't like this puzzle type labs and challenges, the more the real they are the better.
+---
+### **December 16, 2025**
+**Today's Focus**
+* Attempt "Vulnnet:Internal" on tryhackme.
+
+**What I Did ?**
+* Today I struggled with the lab on tryhackme.
+* mounted shares, read config files and found redis password.
+* found rsync password in redis db.
+
+**Thoughts**
+* Got frustrated so packing up for today, will do it again tomorrow.
