@@ -163,9 +163,11 @@
 
 ### **December 17, 2025**
 **Today's Focus**
+* Complete yesterday's lab.
 * Gain knowledge about pivoting by solving tasks on "Wreath" network in Tryhackme.
 
-**What I Learned ?**
+**What I Learned/Did ?**
+* Completed the ctf lab from yesterday, gained root via port forwarding TeamCity service and escalating privileges.
 * Spinned up the wreath network.
 * Compromised a public facing linux server.
 * Discovered the other hosts in the internal network by transferring nmap compiled binary to the compromised linux server.
@@ -173,4 +175,5 @@
 
 **Thoughts**
 * There are many ways to port forward (proxychains,socat,chisel).
+* Yesterday's lab was had some serious problem, every few minutes i became unreachable causing me to do everything from scratch as resetting it only worked.
 ---
