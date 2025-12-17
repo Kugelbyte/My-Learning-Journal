@@ -159,3 +159,18 @@
 
 **Thoughts**
 * Got frustrated so packing up for today, will do it again tomorrow.
+---
+
+### **December 17, 2025**
+**Today's Focus**
+* Gain knowledge about pivoting by solving tasks on "Wreath" network in Tryhackme.
+
+**What I Learned ?**
+* Spinned up the wreath network.
+* Compromised a public facing linux server.
+* Discovered the other hosts in the internal network by transferring nmap compiled binary to the compromised linux server.
+* Successfully forwarded the http service running on the internal host to the local system.
+
+**Thoughts**
+* There are many ways to port forward (proxychains,socat,chisel).
+---
