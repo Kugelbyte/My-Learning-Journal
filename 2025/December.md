@@ -177,3 +177,20 @@
 * There are many ways to port forward (proxychains,socat,chisel).
 * Yesterday's lab was had some serious problem, every few minutes i became unreachable causing me to do everything from scratch as resetting it only worked.
 ---
+
+### **December 18, 2025**
+**Today's Focus**
+* Attempt a simulated penetration test on Tryhackme lab called Internal.
+
+**What I Did ?**
+* Did a penetration of a test environment.
+* Brute forced the credentials for the wordpress admin panel.
+* Uploaded a reverse shell by editing the wordpress theme template.
+* Found a note in the target machine which revealed a Jenkins service running on an another machine in the internal network.
+* Port forwarded the jenkins service to the local machine.
+* Bruteforced the Jenkins panel credentials.
+* Uploaded a reverse shell on Jenkins Script panel and successfully pivoted to another machine on the internal network.
+* Found credentials for root user and gained root shell.
+
+**Thoughts**
+* This simulated lab was very good, felt very real.
