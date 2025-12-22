@@ -194,3 +194,35 @@
 
 **Thoughts**
 * This simulated lab was very good, felt very real.
+---
+
+### **December 19, 2025**
+**Took the day off**
+
+---
+
+### **December 20, 2025**
+**Today's Focus**
+* Install the SSD in the SSD-Enclosure.
+* Partition the SSD and install Kali Linux.
+
+**What I Did ?**
+* I installed the ssd on the enclosure, applied thermal pad on ssd, then attached it to enclosure.
+* Then prepared Kali installer image via USB.
+* Partitioned the disk and installed kali on ssd using the installer image on usb.
+
+**Thoughts**
+* The first boot failed and crashed, I panicked and rebooted again and Kali successfully booted.
+---
+### **December 21, 2025**
+**Took a day off**
+---
+
+### **December 22, 2025**
+**Today's Focus**
+* Revise topics for eJPT exams.
+
+**What I Did ?**
+* Went through techniques for enumerating wordpress and drupal.
+* Revised privilege escalation techniques.
+---
