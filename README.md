@@ -11,7 +11,7 @@ This repository is my daily "proof of work" journal, where I document my learnin
 
 My current goals are:
 
-* **Q4 2025:** Achieve **eJPT** (eLearnSecurity Junior Penetration Tester)
+* **Q4 2025:** Achieve **eJPT** (eLearnSecurity Junior Penetration Tester) ☑️
 * **Q1 2026:** Build a portfolio of **Bug Bounty** (HackerOne) reports
 * **Q4 2026:** Achieve **OSCP** (Offensive Security Certified Professional)
 * **Ongoing:** Develop skills in web application hacking.
