@@ -226,3 +226,19 @@
 * Went through techniques for enumerating wordpress and drupal.
 * Revised privilege escalation techniques.
 ---
+### **December 23, 2025**
+**Today's Focus**
+* Attempt eJPT test.
+
+**What I Did ?**
+* After more than a month of preparation, I decided to attempt the eJPT test today.
+* I started the test at 2 PM.
+* Finished the test by 11 PM with 91% score.
+
+**Thoughts**
+* First goal accomplished, now towards my next goal!!.
+---
+
+### **December 24, 2025**
+**Took a day off, much needed rest after the 9 hours long test session of yesterday.
+---
