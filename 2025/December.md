@@ -79,7 +79,7 @@
 
 ---
 ### **December 08, 2025 - December 10, 2025**
-**Took time off due to bad health.
+**Took time off due to bad health.**
 ---
 
 ### **December 11, 2025**
@@ -240,5 +240,42 @@
 ---
 
 ### **December 24, 2025**
-**Took a day off, much needed rest after the 9 hours long test session of yesterday.
+**Took a day off, much needed rest after the 9 hours long test session of yesterday.**
+---
+
+### **December 25, 2025**
+**Today's Focus**
+* Curate the resume, add keywords and re-formulate the sections in the resume.
+
+**What I Did ?**
+* Reformatted the differenct sections in the resume.
+* Reworked on the contents of the resume, updated them with my current skills.
+
+**Thoughts**
+* Resume looks much cleaner now, need to the same with LinkedIn profile.
+
+---
+### **December 26, 2025**
+**Today's Focus**
+* Resume efforts on web application security.
+* Revisit sql injection
+
+**What I Learned ?**
+* Solved Portswigger Academy labs on Blind SQL Injection.
+* The labs focused on injection in the cookie parameter.
+* In blind sql injection, there is no clear response received via HTTP of the results of the sql query or any errors.
+* Blind SQLi can be exploited by triggering conditional responses
+  ```SQL
+  xyz' AND '1'='1    #(this will evaluate as true)
+  xyz' AND '1'='2    #(this will evaluate as false) some content of the web page might change as there is no clear HTTP response, so better to observe everything carefully
+  ```
+* Conditional responses can also be used deduce passwords
+  ```SQL
+  xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password) > 1)='a  #This can be used to determined length of the password by hit and try
+  xyz' AND SUBSTRING((SELECT password FROM users WHERE username='administrator'),1,1)='a       #Iterating on values like a,b,c,d,... and modifying SUBSTRING function for character positions
+  ```
+
+**Thoughts**
+* Since there is no clear HTTP response carried out for whether the query was success or not, it is important to observe the behavior of the application.
+* The application may behave differently based on incorrect queries and correct queries (Pop-ups in web pages, changes in web pages etc)
 ---
