@@ -279,3 +279,16 @@
 * Since there is no clear HTTP response carried out for whether the query was success or not, it is important to observe the behavior of the application.
 * The application may behave differently based on incorrect queries and correct queries (Pop-ups in web pages, changes in web pages etc)
 ---
+### **December 27, 2025**
+
+**Today's Focus**
+* Finalize the custom tool project idea.
+
+**What I Did ?**
+* I decided to make a custom tool for fetching old urls from web archive.
+* Implemented the functions to fetch archive data and filter urls.
+
+**Thoughts**
+* I am having problems in creating regex expressions to filter meaningful urls.
+* Apparently the archive urls also contain bogus payloads from scanner tools and scrapers, need to filter them out too.
+---
