@@ -320,3 +320,10 @@ TrackingId=1234cyz'%3BSELECT+CASE+WHEN+(1=1)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+
 ```
 * If there is a delay of 10 seconds in the response, the injection took place successfully.
 ---
+### **December 31, 2025**
+**Took time off for new year celebrations**
+
+**Thoughts**
+* 2025 ended today, I hope I achieve good things in 2026.
+---
+
