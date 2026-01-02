@@ -25,7 +25,7 @@ My current goals are:
     * [November 2025](./2025/November.md)
     * [December 2025](./2025/December.md)
 * [**2026**](./2026/)
-    * *(Coming Soon)*
+    * [January 2026](./2026/January.md)
 
 ---
 
