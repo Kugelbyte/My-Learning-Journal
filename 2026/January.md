@@ -24,3 +24,17 @@
 * Ran some checks to see if the server still uses this "legacyId" to identify users but the GraphQL is very strict.
 
 ---
+### **Janaury 3, 2026**
+* Attempted a challenge on tryhackme today.
+* The challenge was 'Year of the Rabbit', I didn't like it.
+* This lab was very puzzle like, no where near like a simulated penetration test, involved solving puzzles instead of exploitation.
+* Attempted another challenge, 'Opacity', this was way better.
+* Exploited the arbitrary file upload vulnerability to upload a reverse shell.
+* Obtained a keepass hash file, and cracked the hash.
+---
+
+### **January 4, 2026**
+* Continued with the 'Opacity' lab.
+* After cracking the keepass hash, obtained the credentials for the user 'sysadmin'.
+* Obtained first flag from sysadmin's home directory.
+---
