@@ -38,3 +38,36 @@
 * After cracking the keepass hash, obtained the credentials for the user 'sysadmin'.
 * Obtained first flag from sysadmin's home directory.
 ---
+### **January 5, 2026**
+* Shifted focus back to my security research on the GraphQL target.
+* Learnt about the basics of GraphQL (types, query, mutation, schema).
+* Types define the primitive data types such as integer, string, boolean and id. They are called scalar types.
+  ```gql
+  type Users{
+        id: ID!
+        name: String!
+        email: String!
+        isAdmin: Boolean!
+   }
+  ```
+* Then there area object types which are a collection of fields (query, mutation, subscription)
+  - Query reads the data 
+  ```gql
+  query {
+     Users {
+              id
+              name
+           }
+        }
+  ```
+  - Mutations are used to modify (update,delete) the data. Mutations have to be defined first and then they can be used to create, update or delete.
+  ```gql
+  mutation {
+          createUser(name: 'Bob', email:'bob@mail.com){
+              name
+              email
+  }
+  }
+  ```
+* Schema defines the entire content (types, mutations, subscriptions).
+---
