@@ -71,3 +71,41 @@
   ```
 * Schema defines the entire content (types, mutations, subscriptions).
 ---
+
+
+### **January 06, 2025**
+
+* Resumed the testing on GraphQL end-point.
+* I tried using "graphw00f" to fingerprint the GraphQL engine but it didn't worked.
+* Tried enumerating the schema but introspection is disabled.
+* The json structure of the query fetching user details is like this:
+  ```gql
+  [{"operationName":"Me","variables":{},"query":"query Me {\n  me {\n    id\n    legacyId\n    email\n    firstName\n    lastName\n    avatarUrl\n    birthDate\n    gender\n    hasPassword\n    phone\n    totalYumsEarned\n    totalYumsBurned\n    totalReservation\n    hasBookmark\n    hasReservation\n    createdAt\n    hasCompletedBookmarksOnboarding\n    highestEligibleDiscountCode {\n      amount {\n        currency {\n          decimalPosition\n          isoCurrency\n          __typename\n        }\n        value\n        __typename\n      }\n      __typename\n    }\n    gamification {\n      name\n      __typename\n    }\n    giftCards {\n      id\n      status\n      __typename\n    }\n    phoneConfirmed\n    stats {\n      segment\n      __typename\n    }\n    __typename\n  }\n  connectionStatus\n  customerOptIn {\n    id\n    optIn {\n      id: optInId\n      optInId\n      type\n      active\n      status\n      __typename\n    }\n    __typename\n  }\n}"}]
+  ```
+* Also the GraphQL recommendation is disabled, inputting wrong field names resulted in 400 Bad Request and "GRAPHQL_VALIDATION_FAILED" error in response.
+* I tried editing the query, tested whether if injecting the "id" in "variables" fetch the user details, but the server ignored it.
+* This meant that server isn't using "id" to fetch details, rather it was using JWT token to fetch details.
+* Also when I observed the JWT token payload
+```json
+{
+    "roles": [
+        "identified",
+        "authenticated"
+    ],
+    "user": {
+        "type": "customer",
+        "id": "d57d2601-019f-45c0-a861-788728f3c80d"
+    },
+    "sessionId": "************",
+    "iat": 1767700163,
+    "exp": 1767700463,
+    "iss": "************",
+    "sub": "session",
+    "jti": "************"
+}
+```
+* The "id" field had the same value as the "id" of the user, I logged out and logged in but the "id" in JWT token remained same, this might suggest:
+  - During account creation, server created an unique "id" for my account alongwith storing other information like email and password.
+  - Then for each login session while creating the token, it assigns the unique "id" to the JWT's "id".
+ 
+---
