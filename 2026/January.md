@@ -109,3 +109,18 @@
   - Then for each login session while creating the token, it assigns the unique "id" to the JWT's "id".
  
 ---
+### **January 07, 2025**
+
+* The observation I made about JWT token yesterday, it seems that it is standard behavior in the web applications.
+* I tried testing whether if I can manipulate JWT itself.
+* Tested with putting "alg:NOne" and similar variants to see if it works, it didn't.
+* Tested removing the signature from the token, it didn't worked.
+* I observed another behavior that sometimes the application asks for an OTP if it fails to recognize the device (maybe it logs the MAC of the device to create a fingerprint and associate it with the account).
+* The request was like this:
+```gql
+  [{"operationName":"GenerateTotp","variables":{"input":{"customerUuid":"3b8f0946-da72-4df9-a35a-d38a24f4831a","requestType":"DINER_CONNECTION"}},"query":"mutation GenerateTotp($input: GenerateTotpInput!) {\n  generateTotp(input: $input)\n}"}]
+```
+* It is taking that "customerUuid" field. 
+* Assuming this user as B, I made the request from user A's account with keeping B's uuid in "customerUuid" field and it did generated a code, and the code arrived in A's mail.
+---
+
