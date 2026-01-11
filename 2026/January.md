@@ -123,4 +123,21 @@
 * It is taking that "customerUuid" field. 
 * Assuming this user as B, I made the request from user A's account with keeping B's uuid in "customerUuid" field and it did generated a code, and the code arrived in A's mail.
 ---
+### **January 08, 2025**
+* Revisited the JWT Attack vectors.
+---
+### **January 09, 2025**
+* Took time off.
+---
+### **January 10, 2025**
+* Configured the new laptop.
+* Installed latest drivers and removed bloatware.
+* Did some stress testings on CPU (Ryzen 7) and GPU (RTX 5050).
+* Downloaded iso images of Windows Server, Windows 10, Ubuntu Server.
+* Configured VMWare Workstation.
+---
 
+### **January 11, 2025**
+* Configured and installed Ubuntu server vm for the home network.
+* Installed Docker and Jenkins.
+---
