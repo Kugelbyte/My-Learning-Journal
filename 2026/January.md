@@ -141,3 +141,8 @@
 * Configured and installed Ubuntu server vm for the home network.
 * Installed Docker and Jenkins.
 ---
+### **January 12, 2025**
+* Registered for the Identity Shield Summit which will happen in Pune.
+* Tweaked the docker and jenkins configuration.
+* Exposed the Jenkins login panel on port 8080.
+---
