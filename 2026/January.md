@@ -146,3 +146,18 @@
 * Tweaked the docker and jenkins configuration.
 * Exposed the Jenkins login panel on port 8080.
 ---
+
+### **January 13, 2025**
+* Reconfigured the laptop settings to enable dual boot.
+* Changed the Secure Boot status from the UEFI/BIOS settings.
+* Bitlocker locked me away, from doing a dual boot.
+
+---
+
+### **January 14, 2025**
+* Took time off for travel preparation.
+---
+
+### **January 15, 2025**
+* Took time off for traveling.
+---
